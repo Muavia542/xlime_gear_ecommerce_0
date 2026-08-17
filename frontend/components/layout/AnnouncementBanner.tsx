@@ -1,0 +1,6 @@
+"use client";
+import { useEffect,useState } from "react";
+import Link from "next/link";
+import { api } from "@/lib/api";
+const fallback={text:"NEW ARRIVAL ⚡ XLIME GEAR FOOTBALL KIT • UK Store Preview • Team & Bulk Orders",background:"#C8FF00",textColor:"#080A08",ctaText:"Instagram @xlimegear",ctaUrl:"https://www.instagram.com/xlimegear",isDismissible:false};
+export default function AnnouncementBanner(){const[banner,setBanner]=useState<any>(fallback);const[hidden,setHidden]=useState(false);useEffect(()=>{api<any>("/content/banner").then(r=>{if(r.banner)setBanner(r.banner)}).catch(()=>{})},[]);if(hidden||!banner)return null;const parts=String(banner.text||fallback.text).split(/\s*[•|]\s*/).filter(Boolean);return <div className="announcement" style={{background:banner.background||fallback.background,color:banner.textColor||fallback.textColor}}><div className="announce-left">{parts.map((x:string)=><span key={x}>{x}</span>)}</div><div className="announce-right">{banner.ctaUrl&&<Link href={banner.ctaUrl} target={String(banner.ctaUrl).startsWith("http")?"_blank":undefined} rel={String(banner.ctaUrl).startsWith("http")?"noopener noreferrer":undefined}>{banner.ctaText||"Learn more"}</Link>}</div>{banner.isDismissible&&<button onClick={()=>setHidden(true)} aria-label="Dismiss announcement" className="announcement-close">×</button>}</div>}
