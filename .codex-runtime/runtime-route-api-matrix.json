@@ -1,0 +1,454 @@
+{
+    "Frontend":  [
+                     {
+                         "Label":  "/",
+                         "Url":  "http://localhost:3000/",
+                         "Status":  200,
+                         "Length":  319694,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/shop",
+                         "Url":  "http://localhost:3000/shop",
+                         "Status":  200,
+                         "Length":  194506,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/shop/sports",
+                         "Url":  "http://localhost:3000/shop/sports",
+                         "Status":  200,
+                         "Length":  101076,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/shop/gym-active",
+                         "Url":  "http://localhost:3000/shop/gym-active",
+                         "Status":  200,
+                         "Length":  98409,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/shop/leather",
+                         "Url":  "http://localhost:3000/shop/leather",
+                         "Status":  200,
+                         "Length":  75359,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/shop/fashion",
+                         "Url":  "http://localhost:3000/shop/fashion",
+                         "Status":  200,
+                         "Length":  84091,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/custom-kits",
+                         "Url":  "http://localhost:3000/custom-kits",
+                         "Status":  200,
+                         "Length":  44154,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/team-orders",
+                         "Url":  "http://localhost:3000/team-orders",
+                         "Status":  200,
+                         "Length":  44208,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/cart",
+                         "Url":  "http://localhost:3000/cart",
+                         "Status":  200,
+                         "Length":  41668,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/checkout",
+                         "Url":  "http://localhost:3000/checkout",
+                         "Status":  200,
+                         "Length":  43759,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/account",
+                         "Url":  "http://localhost:3000/account",
+                         "Status":  200,
+                         "Length":  40669,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/login",
+                         "Url":  "http://localhost:3000/login",
+                         "Status":  200,
+                         "Length":  41122,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin",
+                         "Url":  "http://localhost:3000/admin",
+                         "Status":  200,
+                         "Length":  26340,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/categories",
+                         "Url":  "http://localhost:3000/admin/categories",
+                         "Status":  200,
+                         "Length":  27032,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/products",
+                         "Url":  "http://localhost:3000/admin/products",
+                         "Status":  200,
+                         "Length":  27018,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/collections",
+                         "Url":  "http://localhost:3000/admin/collections",
+                         "Status":  200,
+                         "Length":  27039,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/inventory",
+                         "Url":  "http://localhost:3000/admin/inventory",
+                         "Status":  200,
+                         "Length":  27025,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/orders",
+                         "Url":  "http://localhost:3000/admin/orders",
+                         "Status":  200,
+                         "Length":  27004,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/team-orders",
+                         "Url":  "http://localhost:3000/admin/team-orders",
+                         "Status":  200,
+                         "Length":  27039,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/custom-kits",
+                         "Url":  "http://localhost:3000/admin/custom-kits",
+                         "Status":  200,
+                         "Length":  27039,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/quotes",
+                         "Url":  "http://localhost:3000/admin/quotes",
+                         "Status":  200,
+                         "Length":  27004,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/customers",
+                         "Url":  "http://localhost:3000/admin/customers",
+                         "Status":  200,
+                         "Length":  27025,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/team-accounts",
+                         "Url":  "http://localhost:3000/admin/team-accounts",
+                         "Status":  200,
+                         "Length":  27053,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/banner",
+                         "Url":  "http://localhost:3000/admin/banner",
+                         "Status":  200,
+                         "Length":  27004,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/campaigns",
+                         "Url":  "http://localhost:3000/admin/campaigns",
+                         "Status":  200,
+                         "Length":  27025,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/analytics/performance",
+                         "Url":  "http://localhost:3000/admin/analytics/performance",
+                         "Status":  200,
+                         "Length":  27691,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/analytics/products",
+                         "Url":  "http://localhost:3000/admin/analytics/products",
+                         "Status":  200,
+                         "Length":  27670,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/analytics/requests",
+                         "Url":  "http://localhost:3000/admin/analytics/requests",
+                         "Status":  200,
+                         "Length":  27670,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/notifications",
+                         "Url":  "http://localhost:3000/admin/notifications",
+                         "Status":  200,
+                         "Length":  27053,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/audit-log",
+                         "Url":  "http://localhost:3000/admin/audit-log",
+                         "Status":  200,
+                         "Length":  27025,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/admin-users",
+                         "Url":  "http://localhost:3000/admin/admin-users",
+                         "Status":  200,
+                         "Length":  27039,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     },
+                     {
+                         "Label":  "/admin/settings",
+                         "Url":  "http://localhost:3000/admin/settings",
+                         "Status":  200,
+                         "Length":  27018,
+                         "HasErrorBoundary":  false,
+                         "Result":  "PASS"
+                     }
+                 ],
+    "Api":  [
+                {
+                    "Label":  "auth/me",
+                    "Url":  "http://localhost:4000/api/auth/me",
+                    "Status":  200,
+                    "Length":  111,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin dashboard old",
+                    "Url":  "http://localhost:4000/api/admin/dashboard",
+                    "Status":  200,
+                    "Length":  98,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin categories old",
+                    "Url":  "http://localhost:4000/api/admin/categories",
+                    "Status":  200,
+                    "Length":  2084,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin products old",
+                    "Url":  "http://localhost:4000/api/admin/products",
+                    "Status":  200,
+                    "Length":  57450,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin orders old",
+                    "Url":  "http://localhost:4000/api/admin/orders",
+                    "Status":  200,
+                    "Length":  13,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin team-orders old",
+                    "Url":  "http://localhost:4000/api/admin/team-orders",
+                    "Status":  200,
+                    "Length":  1566,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "admin custom-kits old",
+                    "Url":  "http://localhost:4000/api/admin/custom-kits",
+                    "Status":  200,
+                    "Length":  1028,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 dashboard",
+                    "Url":  "http://localhost:4000/api/admin/v2/dashboard",
+                    "Status":  200,
+                    "Length":  4583,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 collections",
+                    "Url":  "http://localhost:4000/api/admin/v2/collections",
+                    "Status":  200,
+                    "Length":  4381,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 inventory",
+                    "Url":  "http://localhost:4000/api/admin/v2/inventory",
+                    "Status":  200,
+                    "Length":  47991,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 quotes",
+                    "Url":  "http://localhost:4000/api/admin/v2/quotes",
+                    "Status":  200,
+                    "Length":  850,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 customers",
+                    "Url":  "http://localhost:4000/api/admin/v2/customers",
+                    "Status":  200,
+                    "Length":  250,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 team-accounts",
+                    "Url":  "http://localhost:4000/api/admin/v2/team-accounts",
+                    "Status":  200,
+                    "Length":  390,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 banner",
+                    "Url":  "http://localhost:4000/api/admin/v2/banner",
+                    "Status":  200,
+                    "Length":  378,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 campaigns",
+                    "Url":  "http://localhost:4000/api/admin/v2/campaigns",
+                    "Status":  200,
+                    "Length":  378,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 analytics performance",
+                    "Url":  "http://localhost:4000/api/admin/v2/analytics/performance",
+                    "Status":  200,
+                    "Length":  176,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 analytics products",
+                    "Url":  "http://localhost:4000/api/admin/v2/analytics/products",
+                    "Status":  200,
+                    "Length":  8857,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 analytics requests",
+                    "Url":  "http://localhost:4000/api/admin/v2/analytics/requests",
+                    "Status":  200,
+                    "Length":  133,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 notifications",
+                    "Url":  "http://localhost:4000/api/admin/v2/notifications",
+                    "Status":  200,
+                    "Length":  764,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 audit logs",
+                    "Url":  "http://localhost:4000/api/admin/v2/audit-logs",
+                    "Status":  200,
+                    "Length":  1561,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 roles",
+                    "Url":  "http://localhost:4000/api/admin/v2/roles",
+                    "Status":  200,
+                    "Length":  8024,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 admin users",
+                    "Url":  "http://localhost:4000/api/admin/v2/admin-users",
+                    "Status":  200,
+                    "Length":  527,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 settings",
+                    "Url":  "http://localhost:4000/api/admin/v2/settings",
+                    "Status":  200,
+                    "Length":  637,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                },
+                {
+                    "Label":  "v2 media",
+                    "Url":  "http://localhost:4000/api/admin/v2/media",
+                    "Status":  200,
+                    "Length":  13,
+                    "HasErrorBoundary":  false,
+                    "Result":  "PASS"
+                }
+            ]
+}

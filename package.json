@@ -1,0 +1,20 @@
+{
+  "name": "xlime-gear-production",
+  "private": true,
+  "scripts": {
+    "install:all": "npm install --prefix backend && npm install --prefix frontend",
+    "dev": "concurrently -n BACKEND,FRONTEND -c green,cyan \"npm run dev --prefix backend\" \"npm run dev --prefix frontend\"",
+    "build": "npm run build --prefix backend && npm run build --prefix frontend",
+    "typecheck": "npm run typecheck --prefix backend && npm run typecheck --prefix frontend",
+    "qa": "npm run typecheck && npm run build",
+    "qa:static": "node scripts/qa-static.mjs",
+    "hostinger:packages": "powershell -ExecutionPolicy Bypass -File .\\deployment\\CREATE_HOSTINGER_PACKAGES.ps1",
+    "db:deploy": "npm run db:generate --prefix backend && npm run db:deploy --prefix backend",
+    "db:update": "npm run db:generate --prefix backend && npm run db:deploy --prefix backend",
+    "db:seed": "npm run db:seed --prefix backend",
+    "dev:ready": "npm run db:update && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "9.2.1"
+  }
+}

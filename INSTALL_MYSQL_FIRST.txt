@@ -1,0 +1,8 @@
+Before running the project on Windows:
+1) Install MySQL Server 8.x (MySQL Installer Community 8.0 is easiest if you also want Workbench).
+2) Start MySQL Workbench and connect as root.
+3) Open database\mysql-local-setup.sql and execute it.
+4) Then run SETUP_LOCAL_WINDOWS.bat.
+5) Then run START_LOCAL_WINDOWS.bat.
+
+Full details: docs\LOCAL_SETUP_WINDOWS.md

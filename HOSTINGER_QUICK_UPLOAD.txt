@@ -1,0 +1,26 @@
+XLIME GEAR — QUICK HOSTINGER UPLOAD
+
+1) First confirm Hostinger plan supports Node.js Web Apps (Business Web Hosting or Cloud; VPS also works with manual server setup).
+2) hPanel > Databases > MySQL Databases: create a production DB + dedicated user.
+3) Create/deploy BACKEND app first on api.xlimegear.com from the backend folder ZIP.
+   Node: 22 or 24
+   Build: npm run build:hostinger
+   Start: npm start
+   Set env vars from backend/.env.example with real production values.
+4) Create/deploy FRONTEND app on xlimegear.com from the frontend folder ZIP.
+   Node: 22 or 24
+   Build: npm run build
+   Start: npm start
+   NEXT_PUBLIC_API_URL=https://api.xlimegear.com/api
+   SERVER_API_URL=https://api.xlimegear.com/api
+   NEXT_PUBLIC_SITE_URL=https://xlimegear.com
+5) Force HTTPS. Set backend FRONTEND_ORIGIN=https://xlimegear.com and COOKIE_SECURE=true.
+6) Do not upload .env files or use demo passwords in production.
+7) Run/confirm migrations before launch; do not seed demo data on every deployment.
+8) Verify /api/health, /robots.txt, /sitemap.xml, admin login, order/request persistence.
+9) Add site to Google Search Console and submit /sitemap.xml.
+10) Run PageSpeed Insights against the production domain after real images/third-party scripts are final.
+
+For full instructions read docs/HOSTINGER_DEPLOYMENT.md.
+To create clean frontend/backend upload ZIPs on Windows run:
+powershell -ExecutionPolicy Bypass -File .\deployment\CREATE_HOSTINGER_PACKAGES.ps1

@@ -1,0 +1,43 @@
+XLIME GEAR — OPERATIONS HUB V2 PRODUCTION RELEASE
+Release date: 2026-08-12
+
+Architecture
+- frontend/: Next.js 16 + React 19 + TypeScript + Tailwind CSS 4
+- backend/: Node.js + Express 5 + TypeScript + Prisma 7
+- database/: MySQL 8 local bootstrap documentation
+- docs/: local setup, QA, Hostinger, SEO/performance/security, Admin V2 architecture
+
+Admin Operations Hub
+- Command Center
+- Products + dedicated editor + SEO/media controls
+- Categories + subcategories
+- Collections
+- Inventory + adjustment history
+- Media Library
+- Orders + detail/timeline
+- Team Orders CRM + stages/notes
+- Custom Kits + stages/assets/design revisions
+- Quotes & Approvals
+- Customers + notes
+- Team Accounts
+- Announcement Banner + schedule
+- Campaigns
+- Performance/Product/Request analytics
+- Notifications
+- Audit Log
+- Admin Users + RBAC
+- Store Settings
+
+SEO
+- server-rendered public catalogue paths
+- programmatic category/subcategory/product pages
+- dynamic metadata/canonicals
+- Organization/Product/Breadcrumb/ItemList JSON-LD
+- robots/sitemap/manifest
+- descriptive image alt support
+- noindex private/admin/transaction pages
+
+Security
+See SECURITY.md and docs/SEO_PERFORMANCE_SECURITY.md.
+
+Release file count (before final ZIP): 187

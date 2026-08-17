@@ -1,0 +1,27 @@
+{
+    "InitialCategoryCount":  4,
+    "InitialCategoryNames":  [
+                                 "Sports",
+                                 "Gym \u0026 Active",
+                                 "Leather",
+                                 "Fashion"
+                             ],
+    "InitialSubcategoryCounts":  [
+                                     "Sports:7",
+                                     "Gym \u0026 Active:4",
+                                     "Leather:4",
+                                     "Fashion:6"
+                                 ],
+    "InvalidCreateStatus":  422,
+    "CreatedStatus":  201,
+    "TempId":  "cmss2dr7v0000ywtqe5bkb9xm",
+    "EditedStatus":  200,
+    "EditedInactive":  true,
+    "EditedSubcategories":  [
+                                "QA Subcategory",
+                                "QA Edited Subcategory"
+                            ],
+    "DeleteStatus":  204,
+    "FinalCategoryCount":  4,
+    "TempCleaned":  true
+}

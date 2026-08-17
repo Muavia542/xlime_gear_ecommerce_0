@@ -1,0 +1,10 @@
+node_modules/
+.next/
+dist/
+.env
+.env.local
+backend/src/generated/prisma/
+backend/uploads/*
+!backend/uploads/.gitkeep
+*.log
+.DS_Store
